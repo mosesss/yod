@@ -1,0 +1,65 @@
+.orange{
+  color: #fd7518;
+}
+.yod{
+  color: #7d8690;
+  border-bottom: 1px solid transparent;
+  min-height: 100vh;
+  background: #feb05b;
+  background-image: url("yodImg/bg.jpg");
+  background-size: 100% auto;
+  background-repeat: repeat;
+}
+.yodHeader{
+  background: linear-gradient(#ff7419 80%,#feb05b 92%);
+}
+.yodHeaderImg{
+  width: 100%;
+  height: auto;
+  max-height: 326px;
+  max-width: 750px;
+}
+.yodFooter{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+.radiusBox{
+  border-radius: 10px;
+  background-color: #fff;
+  text-align: left;
+}
+.radiusBox.rb1{
+  width: 82%;
+  padding: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*yod应用个人信息(info+*),yod 命理信息(attr+*)组件css*/
+.infoDiv{
+  padding: 35px 15px 0;
+  background-clip: padding-box;
+  background-image: url("yodImg/gap.png");
+  background-size: 100% 36px;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+.infoDiv .infoBox{
+  border-radius: 0 0 10px 10px;
+  margin-top: -14px;
+}
+.attrDiv .attrBox{
+  border-radius: 10px;
+
+}
+.infoBox .infoList,.attrBox .attrList{
+  border-bottom: 1px solid #ffe1ba;
+}
+.infoBox .infoList:nth-last-child(1),.attrBox .attrList:nth-last-child(1){
+  border: none;
+}
+.infoBox .infoList .color,.attrBox .attrList .color{
+  color: #fd7518;
+}
+
+
